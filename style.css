@@ -1,0 +1,105 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #9F6E45;
+    opacity: 0.5;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111111;
+    
+}
+.name {
+   float:left;
+}
+.name p {
+    display: block;
+    color: white;
+    text-align: center;
+    padding-left: 30px;
+    text-decoration: none;
+    
+}
+
+.center_block {
+    background-color:#9F6E45;
+    text-align:center;
+    opacity: 0.6;
+    margin: 50px;
+    padding: 20px;
+    margin-left: 400px;
+    margin-right: 400px;
+    height: 370px;
+
+}
+
+
+ img{
+    border-radius: 50%;
+} 
+.container {
+    background-image: url('../Sergej_homework/arto-marttinen2.jpg');
+    height:1080px;
+    color: white;
+    font-family: 'Arvo', courier, serif;
+    margin-top: -8px;
+    margin-bottom:-8px;
+    margin-left: -8px;
+    margin-right: -8px;
+    background-size: cover;
+    
+}
+
+.button {
+    background-color: #624732;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 35px 2px;
+    cursor: pointer;
+}
+
+.Plato {
+    float: right;
+    padding: 50px;
+    padding-right: 100px;
+    max-width: 200px;
+
+}
+
+.Plato p {
+    font-size: 20px;
+    line-height: 130%;
+}
+
+.Socrates {
+    float: left;
+    padding: 50px;
+    padding-left: 120px;
+    max-width: 200px;
+
+}
+
+.Socrates p {
+    color: #624732;
+    font-size: 20px;
+    line-height: 130%;
+}

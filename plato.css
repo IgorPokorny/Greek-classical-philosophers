@@ -1,0 +1,80 @@
+body {
+    max-width: 1400px;
+    margin:auto;
+    padding: 10px 8px 10px 0px;
+    font-family: 'Cormorant', serif;
+}
+
+.nav-bar {
+    position: fixed;
+    width:240px;
+    margin-top: 10px;
+}
+
+.menu-list ul {
+    list-style: none;
+}
+
+.menu-list a {
+    text-decoration: none;
+    color: #5071fc;
+    font-size: 30px;
+    line-height: 1.5;
+}
+
+.container {
+    margin-left: 260px;
+    font-size: 24px;
+}
+
+.container h1 {
+    text-align: center;
+    color:#5071fc;
+    font-weight: normal;
+    font-size: 44px;
+}
+
+.container ul {
+    list-style: none;
+    padding-left: 24px;
+}
+.container ul li {
+    text-indent: -24px;
+    margin-bottom: 6px;
+}
+.container ul li::before {
+    content: "– ";
+    padding-right: 6px;
+    text-indent: -18px;
+}
+
+.philosopher-img {
+    float: left;
+    margin: 35px 40px 30px 20px;
+    border-radius: 20px;
+}
+
+
+figure img {
+    display: block;
+    margin: 40px auto 0px auto;
+}
+
+figure figcaption {
+    text-align: center;
+    margin-top: 6px;
+    font-size: 16px;
+}
+
+.motto {
+    text-align: center;
+    font-family: 'Cormorant', serif;
+    font-weight: normal;
+    font-size: 30px;
+}
+
+h2 {
+    color: #5071fc;
+    font-size: 34px;
+    font-weight: normal;
+}
