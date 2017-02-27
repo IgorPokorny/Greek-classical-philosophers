@@ -8,7 +8,7 @@ $(document).ready(function(){
 	$("a").hide().fadeIn(3000);
 	$(".philosopher-img").hide().fadeIn(1200);
 
-	$(".motto").animate({right: '250px'},2000);
+	$(".motto").css({right: '-450px'}).animate({right: '0px'},2000);
 
 
      
