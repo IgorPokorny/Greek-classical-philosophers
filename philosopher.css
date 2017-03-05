@@ -93,8 +93,9 @@ figure img {
 }
 
 .container .footer  {
-    max-width: 300px;
-    margin: auto;
+    text-align: center;
+    /*max-width: 300px;*/
+    /*margin: auto;*/
     padding-bottom: 50px;
 }
 
